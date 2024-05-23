@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+header {
+    background-color: grey;
+}
+
+nav {
+    background-color: darkgray;
+}
+
+aside:last-child {
+    text-align: right;
+    background-color: purple;
+}
+
+aside:first-child {
+    padding-bottom: 30%;
+    text-align: left;
+    width: 20%;
+    background-color: blue;
+}
+
+main > p {
+    text-align: center;
+}
+

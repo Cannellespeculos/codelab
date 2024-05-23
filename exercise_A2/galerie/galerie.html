@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="galerie.css">
+</head>
+<body>
+    <h1>Test d'une galerie d'images</h1>
+    
+    <section>
+        <h2>Entièrement en HTML et CSS </h2>
+        <a href="#img1"><img  src="1.jpg" alt="cheval"></a>
+        <a href="#img2"><img  src="2.jpg" alt="batiment"></a>
+        <a href="#img3"><img  src="3.jpg" alt="velo"></a>
+        <a href="#img4"><img  src="4.jpg" alt="insect"></a>      
+    </section>
+
+
+    <div id="img1">
+        <a href="galerie.html"><i class="fa-solid fa-xmark"></i></a>
+        <img id="image1" src="1.jpg" alt="gros cheval">
+        <a href="#img2"><i class="fa-solid fa-arrow-right"></i></a>
+        <a href="#img4" class="arrow_left"><i class="fa-solid fa-arrow-left"></i></a>
+    </div>
+
+    <div id="img2">
+        <a href="galerie.html"><i class="fa-solid fa-xmark"></i></a>
+        <img id="image2" src="2.jpg" alt="gros batiment">
+        <a href="#img3"><i class="fa-solid fa-arrow-right"></i></a>
+        <a href="#img1" class="arrow_left"><i class="fa-solid fa-arrow-left"></i></a>
+    </div>
+
+    <div id="img3">
+        <a href="galerie.html"><i class="fa-solid fa-xmark"></i></a>
+        <img id="image3" src="3.jpg" alt="gros velo">
+        <a href="#img4"><i class="fa-solid fa-arrow-right"></i></a>
+        <a href="#img2" class="arrow_left"><i class="fa-solid fa-arrow-left"></i></a>
+    </div>
+
+    <div id="img4">
+        <a href="galerie.html"><i class="fa-solid fa-xmark"></i></a>
+        <img id="image4" src="4.jpg" alt="gros insectes">
+        <a href="#img1"><i class="fa-solid fa-arrow-right"></i></a>
+        <a href="#img3" class="arrow_left"><i class="fa-solid fa-arrow-left"></i></a>
+    </div>
+
+    <script src="https://kit.fontawesome.com/6a2b59470e.js" crossorigin="anonymous"></script>
+
+</body>
+</html>

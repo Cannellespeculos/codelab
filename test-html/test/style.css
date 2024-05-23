@@ -1,0 +1,47 @@
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
+article:nth-child(1) {
+  width: 100%;
+}
+
+article p:nth-child(2) {
+  text-align: right;
+}
+
+section {
+  width: 50%;
+}
+
+h1 {
+  font-weight: 700;
+}
+
+.continent {
+  font-family: Courier;
+  color: green;
+}
+
+span {
+  font-style: italic;
+  color: brown;
+}
+
+td, th {
+  width: 20%;
+  border: 2px solid black;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+#twocol {
+  text-align: right;
+}
+
+#twoboth {
+  text-align: center;
+}

@@ -1,0 +1,42 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+li ul li {
+    display: none;
+    list-style: none;
+}
+
+nav > ul li {
+    width: 10%;
+    padding: 10px;
+    border-radius: 10px 10px 0 0;
+    margin: 12px;
+    list-style: none;
+    text-align: center;
+}
+
+
+
+#firstmenu {
+    background: linear-gradient(0deg, rgba(41,5,69,1) 0%, rgba(104,23,162,1) 100%);
+}
+
+#secondmenu {
+    background: linear-gradient(0deg, rgba(5,21,69,1) 0%, rgba(22,42,171,1) 100%);
+}
+
+#thirdmenu {
+    background: linear-gradient(0deg, rgba(119,65,17,1) 0%, rgba(233,101,6,1) 100%);
+}
+
+#fourthmenu {
+    background: linear-gradient(0deg, rgba(49,99,33,1) 0%, rgba(10,233,6,1) 100%);
+}

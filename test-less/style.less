@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@bkg-color: #d0e54c;
+@border: 200px * 0.10;
+
+body {
+    display: flex;
+
+
+    #rectangle1 {
+        background-color: @bkg-color;
+        width: 300px;
+        height: 200px;
+        margin: 20px;
+        border: @border solid @bkg-color - #222;
+    }
+    
+    #rectangle2 {
+        background-color: lighten(@bkg-color, 30%);
+        width: 300px;
+        height: 200px;
+        margin: 20px;
+        border: @border solid @bkg-color - #222;
+    }
+}
+
+

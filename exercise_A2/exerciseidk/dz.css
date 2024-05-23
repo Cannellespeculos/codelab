@@ -1,0 +1,23 @@
+
+
+ul:first-child li {
+    list-style: none;
+}
+
+ul:first-child li::before {
+    content: url(puce.png);
+}
+
+ul:last-child {
+    height: 500px;
+}
+
+ul:nth-child(2) li {
+    list-style: none;
+    background-image: url(globe.jpeg);
+    background-repeat: no-repeat;
+    vertical-align: middle;
+    height: 150px;
+}
+
+

@@ -1,0 +1,19 @@
+select {
+    height: 130px;
+}
+
+button {
+    color: grey;
+}
+
+.time {
+    display: flex;
+    flex-direction: column;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    gap: 15px;
+}

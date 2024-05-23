@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Test</title>
+  </head>
+  <body>
+    <article>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, tenetur repellat et dolore adipisci consequatur omnis nobis repudiandae sapiente? Voluptatem eum in deserunt id reprehenderit beatae a dolorum rem iste?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, tenetur repellat et dolore adipisci consequatur omnis nobis repudiandae sapiente? Voluptatem eum in deserunt id reprehenderit beatae a dolorum rem iste?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, tenetur repellat et dolore adipisci consequatur omnis nobis repudiandae sapiente? Voluptatem eum in deserunt id reprehenderit beatae a dolorum rem iste?</p>
+    </article>
+
+    <section>
+
+      <!-- j'ai décider de créer un titre pour chaque paragraphe
+      a cause de la consigne que je n'ai pas compris -->
+
+      <h1>titre 1</h1>
+      <p>
+        Tokyo, ville la plus chère du monde, Asuncion la moins chère, Paris 17e
+      </p>
+
+      <h2>titre 2</h2>
+      <p>
+        PARIS (<span>AFP</span>) - Tokyo est la ville la plus chère du monde, suivie de Londres tandis que Paris arrive à la 17e place et Asuncion arrive à la dernière place du classement, selon une enquête réalisée par le cabinet de conseil <span>Mercer HRC.</span> 
+La capitale japonaise occupait déjà la première place du classement l'année dernière, en revanche la capitale anglaise est remontée de la cinquième à la deuxième place.
+C'est la <span class="continent">russe</span> Moscou qui monte sur la troisième marche du podium, suivie d'une autre ville japonaise Osaka et de Hong-Kong en cinquième position.
+      </p>
+
+      <h3>titre 3</h3>
+      <p>
+        New York, la ville la plus onéreuse <span class="continent">d'Amérique du Nord</span>, s'affiche à la 12e place du classement. Et c'est au sud du continent <span class="continent">américain</span>, à Asuncion au Paraguay que la vie est la moins chère du monde, selon cette étude.
+      </p>
+
+      <h4>titre 4</h4>
+      <p>
+        "Les importantes modifications dans le classement sur le coût de la vie sont dues aux fluctuations monétaires, notamment à celle du dollar et de l'euro", relève l'enquête. S'agissant de Paris, l'étude note que "le logement reste très difficile à trouver surtout lorsqu'il s'agit d'habitations meublées".
+      </p>
+
+      <h5>titre 5</h5>
+      <p>
+        Quatre des cinq villes les moins chères <span class="continent">d'Europe</span> font partie des nouveaux entrants de l'Union européenne: Ljubljana (Slovénie), Vilnius (Lituanie), Limassol (Chypre) et Bucarest (Roumanie).
+      </p>
+
+      <h6>titre 6</h6>
+      <p>
+        Parmi les cinquante villes les plus chères, près de la moitié (24) sont <span class="continent">européennes</span>. Dans cette zone géographique, Londres, la plus chère en raison "du logement et du transport", est suivie de Copenhague (Danemark) et de Milan (Italie).
+      </p>
+
+      <!-- on ne peut faire que jusqu'a h6 -->
+      <p>
+        En Amérique Latine, c'est la capitale du Pérou, Lima, qui se situe à la première place sur le continent.
+      </p>
+
+      <p>L'étude, qui porte sur 144 villes, se fonde sur des critères relatifs au logement, à la nourriture, à l'habillement et les appareils ménagers ou encore aux transports et aux loisirs.
+      </p>
+
+      <hr>
+    </section>
+
+    <div>
+      <ul>
+        <li><a href="dossier1/fic1.html">lien 1</a></li>
+        <li><a href="dossier2/fic2.html">lien 2</a></li>
+        <li><a href="dossier1/dossier3/fic3.html">lien 3</a></li>
+        <li><a href="dossier2/dossier4/fic4.html">lien 4</a></li>
+      </ul>
+    </div>
+      
+    <ul>
+      <li>liste numérotée</li>
+      <ol>
+        <li>liste non-numérotée :</li>
+        <ul>
+          <li>Dernier niveau de l'arborescence</li>
+        </ul>
+      </ol>
+    </ul>
+
+
+    <table>
+      <thead>
+        <tr>
+          <th>Titre1</th>
+          <th>Titre2</th>
+          <th>Titre3</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td>Cellule simple</td>
+          <td>Cellule simple</td>
+          <td>Cellule simple</td>
+        </tr>
+
+        <tr>
+          <td colspan="2" id="twocol">Deux colonnes assemblé</td>
+          <td colspan="1">Cellule simple</td>
+        </tr>
+
+        <tr>
+          <td>Cellule simple</td>
+          <td>Cellule simple</td>
+          <td rowspan="2" id="tworow">Deux lignes assemblées</td>
+        </tr>
+
+        <tr>
+          <td>Cellule simple</td>
+          <td>Cellule simple</td>
+        </tr>
+
+        <tr>
+          <td>Cellule simple</td>
+          <td colspan="2" rowspan="2" id="twoboth">Deux lignes et deux colonnes</td>
+        </tr>
+
+        <tr>
+          <td>Cellule simple</td>
+        </tr>
+      </tbody>
+      
+    </table>
+
+    <!-- <label for="choix_bieres">Indiquez votre bière préférée :</label> <input list="bieres"
+type="text" id="choix_bieres">
+<datalist id="bieres"> <option value="Meteor">
+<option value="Pils">
+<option value="Kronenbourg">
+<option value="Grimbergen">
+</datalist> -->
+
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>

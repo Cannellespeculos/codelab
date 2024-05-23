@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="fic1.css">
+</head>
+<body>
+    <div>
+        <ul>
+          <li><a href="dossier1/fic1.html">lien 1</a></li>
+          <li><a href="dossier2/fic2.html">lien 2</a></li>
+          <li><a href="dossier1/dossier3/fic3.html">lien 3</a></li>
+          <li><a href="dossier2/dossier4/fic4.html">lien 4</a></li>
+        </ul>
+      </div>
+
+      <form>
+        <fieldset>
+          <legend>Champ de saisie avec </legend>
+          <input type="text" name="h" id="h" > 
+        </fieldset>
+        
+        <fieldset>
+          <legend>Cases à cocher</legend>
+          <label for="check1"><input type="checkbox" name="check1">case 1</label>
+          <label for="check2"><input type="checkbox" name="check2" checked>case 2 pré-cochée</label>
+          <label for="check3"><input type="checkbox" name="check3">case 3</label>  
+        </fieldset>
+        
+        <fieldset>
+          <legend>Boutons radio</legend>
+          <label for="radio1"><input type="radio" name="radio">salé</label>
+        <label for="radio2"><input type="radio" name="radio">sucré</label>
+        <label for="radio3"><input type="radio" name="radio" checked>sans saveur</label>
+        </fieldset>
+
+        <fieldset>
+          <legend>Envoyer un fichier...</legend>
+          <input type="file" name="file">
+        </fieldset>
+        
+
+        <fieldset>
+          <legend>Champ de saisie d'un mot de passe</legend>
+          <input type="password" name="pass">
+        </fieldset>
+        
+        <fieldset>
+          <legend>Soumettre un formulaire...</legend>
+          <fieldset>
+            <legend>Champ de saisie long (balises)</legend>
+            <textarea name="" id="" cols="50" rows="7" placeholder="C'est l'histoire d'un fou qui repeint son plafond. Un autre fou arrive et lui dit..."></textarea>
+          </fieldset>
+
+          <fieldset>
+            <legend>Balise select</legend>
+
+            <label for="selc">Format par défaut</label>
+            <select name="selc" id="selc">
+              <option value="saint nectaire">saint nectaire</option>
+              <option value="camembert">camembert</option>
+              <option value="beaufort" selected>beaufort</option>
+              <option value="roblochon">roblochon</option>
+            </select>
+
+
+
+          </fieldset>
+        </fieldset>
+
+        <fieldset>
+          <legend>Un exemple combinant </legend>
+        </fieldset>
+      </form>
+</body>
+</html>

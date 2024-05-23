@@ -1,0 +1,2 @@
+dd:not(#mon_id) { background-color: lightgreen;}
+dt:not(.la_classe) {background-color: lightpink;}

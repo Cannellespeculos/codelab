@@ -1,0 +1,40 @@
+ * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+div {
+  background-color: yellow;
+}
+
+h1 , h2{
+  color: red;
+}
+
+div>b {
+  color: green;
+}
+
+div p {
+  color: blue;
+}
+
+div p b {
+  font-weight: bold;
+}
+
+.p2 {
+  color: pink;
+}
+
+input[type="text"] {
+  background-color: green;
+}
+
+p a {
+  color: gray;
+  text-decoration: none;
+}
+ 
+
